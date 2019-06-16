@@ -1,2 +1,2 @@
 # Color-Game
-# An RGB guessing game.
+An RGB guessing game.
