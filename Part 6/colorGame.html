@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Color Game</title>
+    <!-- our css -->
+    <link rel="stylesheet" href="colorGame.css">
+
+</head>
+
+<body>
+    <h1>The great
+        <br>
+        <span id="colorDisplay">RGB</span>
+        <br>
+        Color Game
+    </h1>
+
+    <div id="stripe">
+        <button id="reset">New Colors</button>
+        <span id="message"></span>
+        <button id="easyBtn">Easy</button>
+        <button id="hardBtn" class="selected">Hard</button>
+    </div>
+
+    <div id="container">
+        <!-- in css each squares takes up 30% of the container and the margins takes /*TO give uniform margin: 
+	100%body - 90%image = 10% total margin
+	10% / 6 margins = 1.66% for each image*/ -->
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+    </div>
+
+    <!-- our JS -->
+    <script type="text/javascript" src="colorGame.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+body{
+    background-color: #232323;
+}
+
+.square{
+    width: 30%;
+    background: yellowgreen;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+}
+
+/* to limit the area where all squares are shown */
+#container{
+    max-width: 600px;
+    /* 0 margin on top and bottom and auto on 
+    left & right to center it */
+    margin: 0 auto; 
+}
+
+h1{
+    color: white;
+}
+
+span{
+    color: white;
+}
